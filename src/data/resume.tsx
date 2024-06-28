@@ -2,32 +2,30 @@ import { IoLogoGithub, IoLogoInstagram, IoMailSharp } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
+  name: "Sanaullah Ansari",
+  initials: "SA",
+  url: "",
+  location: "Mumabi, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+    "As a Software Developer, I specialize in ReactJS, .Net Core, and NodeJS frameworks. I am also available for freelance projects, particularly in the MERN stack",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "I am a [2023 B-Tech graduate from Mechanical](/#education) who transitioned to the IT industry through self-study. With 1 year of experience in software development, I have honed my skills in ReactJS, .Net Core MVC & WebApi, SQL Server, MongoDB, JavaScript, TypeScript, and many more technologies. I am dedicated to continuously improving my skills, practicing coding, and building various web applications. Some of my notable projects include [Kazi Studios](#), [Palette Plus](https://palette-plus-app.vercel.app/), & [Techno Trove](https://techno-trove.vercel.app/). I am also open to freelance work.",
+  avatarUrl: "/logo512.png",
   skills: [
-    "React",
-    "Next.js",
+    "ReactJs",
+    ".Net Core",
+    "Sql Server",
+    "NodeJs",
+    "NextJs",
+    "Javascript",
     "Typescript",
     "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "C#",
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "sanaullah129@gamil.com",
+    modbile: "+919320516558",
     social: {
       GitHub: {
         url: "https://github.com/sanaullah129",
@@ -49,16 +47,16 @@ export const DATA = {
   },
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Prudence Analytics & Software Solutions Pvt. Ltd.",
+      href: "https://prudencesoftware.com/",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "Mumbai",
+      title: "Junior Software Developer",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "August 2023",
+      end: null,
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Developed and optimized stored procedures and SQL functions for efficient data management in a large-scale product database, making data retrieval 20% faster.  Revamped and implemented interactive web pages aligning with modern design principles; increased user engagement by 40% through seamless data integration using APIs such as Twingly, Twitter, Gmail, etc.   Migrated internal CMS from ASPX to ReactJs and .NET Web API, improving routing and code separation.   Recommended 60% of the React libraries (hot-toasts, router-dom, antd) used and implemented JWT authentication and various web pages.   Integrated Python into a .NET MVC application for phrase identification and sentiment analysis, expanding the system's capabilities by 50% to use python libraries.  Enhanced data visualization using Highcharts to create informative charts for Reports & Dashboards, improving data presentation for stakeholders",
     },
     {
       company: "Shopify",
