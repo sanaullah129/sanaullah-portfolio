@@ -1,10 +1,10 @@
-import { DATA } from "../../data/resume";
-import { BLUR_FADE_DELAY } from "../../utils/constants";
+import { FC } from "react";
+import { BLUR_FADE_DELAY, Props } from "../../utils/constants";
 import BlurFade from "../magic-ui/blur-fade";
 import BlurFadeText from "../magic-ui/blur-fade-text";
 import Markdown from "react-markdown";
 
-const Intro = () => {
+const Intro: FC<Props> = ({ DATA }) => {
 
   return (
     <>
@@ -25,7 +25,7 @@ const Intro = () => {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-                <div className="size-20">
+                <div className="size-40">
                 <img alt={DATA.name} src={DATA.avatarUrl} className="rounded-full" />
                 </div>
             </BlurFade>
