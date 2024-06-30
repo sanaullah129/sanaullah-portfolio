@@ -23,13 +23,13 @@ export const DATA = {
     email: "sanaullah129@gamil.com",
     modbile: "+919320516558",
     social: {
-      GitHub: {
-        url: "https://github.com/sanaullah129",
-        icon: <IoLogoGithub className="text-xl" />,
-      },
       LinkedIn: {
         url: "https://www.linkedin.com/in/sanaullah129/",
         icon: <IoLogoLinkedin className="text-xl" />,
+      },
+      GitHub: {
+        url: "https://github.com/sanaullah129",
+        icon: <IoLogoGithub className="text-xl" />,
       },
       Instagram: {
         url: "https://www.instagram.com/sanaullah_129_?igsh=MW00Z3Bjdm45b2NxdQ==",
@@ -156,66 +156,104 @@ export const DATA = {
       image: "/techno-trove.png",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Palette Plus",
+      href: "https://palette-plus-app.vercel.app/",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a full-fledged frontend application designed to explore and extract information like HEX, RGB, and RGBA color codes from various palettes. Users can also craft custom color palettes by selecting their favorite colors and save these palettes locally for future use. The application serves as a practical exercise to advance my skills in React development, providing a hands-on experience in state management, local storage usage, and overall frontend architecture",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "ReactJs", 
+        "JavaScript", 
+        "MaterialUi", 
+        "HTML5/CSS3"
       ],
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
-          icon: "",
+          href: "https://palette-plus-app.vercel.app/",
+          icon: <FaGlobe />
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: "",
+          href: "https://github.com/sanaullah129/palette-plus",
+          icon: <FaCodeBranch />
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/palette-plus.png",
+      video: "",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Contact Manager",
+      href: "#",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Developed a comprehensive backend project using NodeJS that handles user login and registration, and performs CRUD operations for managing contact details. The project ensures secure authentication and efficient data management, demonstrating my backend development skills.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Node Js",
+        "Express Js",
+        "JavaScript",
+        "Bcrypt",
+        "JWT Authentication",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sanaullah129/contact-manager",
+          icon: <FaCodeBranch />
+        },
+      ],
+      image: "/node-js.png",
+      video: "",
+    },
+    {
+      title: "News Alert App",
+      href: "#",
+      active: true,
+      description:
+        "Developed a web application with a user-friendly interface to display the latest news, categorized into sections such as sports, entertainment, and celebrities. The application features real-time updates and a responsive design, ensuring an optimal user experience on both desktop and mobile devices.",
+      technologies: [
+        "React Js",
+        "Bootstrap",
+        "News Api",
+        "HTML5/CSS3",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/sanaullah129/News-Alert",
+          icon: <FaCodeBranch />
+        },
+      ],
+      image: "/news-app.png",
+      video:"",
+    },
+    {
+      title: "Text Utility",
+      href: "https://sanaullah129.github.io/Text-Manipulator/",
+      active: true,
+      description:
+        "My very first React App which I made while learning ReactJs, this application is very simple ans sweet which allows you to manipulate the text. You can do lower, upper, etc. and also toggle dark and light mode with this application",
+      technologies: [
+        "Node Js",
+        "Express Js",
+        "JavaScript",
+        "Bcrypt",
+        "JWT Authentication",
       ],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
-          icon: "",
+          href: "https://sanaullah129.github.io/Text-Manipulator/",
+          icon: <FaGlobe />
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sanaullah129/Text-Manipulator",
+          icon: <FaCodeBranch />
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/text-utility.png",
+      video: "",
     },
   ],
 } as const;
