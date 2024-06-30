@@ -4,6 +4,7 @@ import WorkExperience from "./Home/WorkExperience";
 import { DATA } from "../data/resume";
 import Education from "./Home/Education";
 import TopProjects from "./Home/TopProjects";
+import ContactMe from "./Home/ContactMe";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Skills DATA={DATA} />
         <Education DATA={DATA} />
         <TopProjects DATA={DATA} />
+        <ContactMe />
       </main>
     </>
   );

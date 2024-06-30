@@ -1,5 +1,6 @@
 import { IoLogoGithub, IoLogoInstagram, IoMailSharp, IoLogoLinkedin } from "react-icons/io5";
-import { FaGlobe } from "react-icons/fa";
+import { FaGlobe, FaCodeBranch } from "react-icons/fa";
+
 
 export const DATA = {
   name: "Sanaullah Ansari",
@@ -10,7 +11,7 @@ export const DATA = {
   description:
     "As a Software Developer, I specialize in ReactJS, .Net Core, and NodeJS frameworks. I am also available for freelance projects, particularly in the MERN stack",
   summary:
-    "I am a [2023 B-Tech graduate from Mechanical](/#education) who transitioned to the IT industry through self-study. With 1 year of experience in software development, I have honed my skills in ReactJS, .Net Core MVC & WebApi, SQL Server, MongoDB, JavaScript, TypeScript, and many more technologies. I am dedicated to continuously improving my skills, practicing coding, and building various web applications. Some of my notable projects include [Kazi Studios](#), [Palette Plus](https://palette-plus-app.vercel.app/), & [Techno Trove](https://techno-trove.vercel.app/). I am also open to freelance work.",
+    "I am a [2023 B-Tech graduate from Mechanical](/#education) who transitioned to the IT industry through self-study. With 1 year of experience in software development, I have honed my skills in ReactJS, .Net Core MVC & WebApi, SQL Server, MongoDB, JavaScript, TypeScript, and many more technologies. I am dedicated to continuously improving my skills, practicing coding, and building various web applications. Some of my notable projects include [Kazi Studios](https://kazi-studios.vercel.app/), [Techno Trove](https://techno-trove.vercel.app/), & [Palette Plus](https://palette-plus-app.vercel.app/). I am also open to freelance work.",
   avatarUrl: "/me.jpg",
   skills: {
     frameworks: ["React JS", "Node JS", ".NET Core MVC", ".NET Core Web Api", "Next JS"],
@@ -101,10 +102,10 @@ export const DATA = {
   projects: [
     {
       title: "Kazi Studios",
-      href: "https://chatcollect.com",
+      href: "https://kazi-studios.vercel.app/",
       active: true,
       description:
-        "Developed a web application as a paid freelance project for a graphic designer to showcase services, portfolios, and include a contact page. Built an admin dashboard for the designer to upload and manage posters, portfolios, and contact form responses efficiently.",
+        "Developed a comprehensive web application as a paid freelance project for a graphic designer. The application was designed to showcase the designer's services and portfolios while also featuring a contact page for potential clients to get in touch. In addition to the front-end user experience, I built an intuitive admin dashboard for the designer. This dashboard allows the designer to easily upload and manage posters and portfolios, as well as efficiently handle and respond to contact form submissions.",
       technologies: [
         "ReactJS",
         "NodeJs",
@@ -118,11 +119,11 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "#",
+          href: "https://kazi-studios.vercel.app/",
           icon: <FaGlobe />
         },
       ],
-      image: "",
+      image: "/kazi-studio.png",
       video: "",
     },
     {
@@ -149,7 +150,7 @@ export const DATA = {
         {
           type: "Source",
           href: "https://github.com/sanaullah129/techno-trove",
-          icon: <FaGlobe />
+          icon: <FaCodeBranch />
         },
       ],
       image: "/techno-trove.png",
