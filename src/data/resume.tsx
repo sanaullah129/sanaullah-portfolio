@@ -5,7 +5,7 @@ import { FaGlobe, FaCodeBranch } from "react-icons/fa";
 export const DATA = {
   name: "Sanaullah Ansari",
   initials: "SA",
-  url: "",
+  url: "https://sanaullah.vercel.app/",
   location: "Mumabi, India",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -128,7 +128,7 @@ export const DATA = {
     },
     {
       title: "Techno Trove",
-      href: "https://magicui.design",
+      href: "https://techno-trove.vercel.app/",
       active: true,
       description:
         "Developed a secure e-commerce website featuring robust user authentication and encryption techniques, ensuring data integrity and user privacy. Integrated Stripe API for seamless payments and Google login for enhanced user convenience and security. Designed an intuitive admin dashboard with graphical analytics for order management, delivery tracking, and product inventory. Leveraged data visualization to provide actionable insights for optimizing business operations.",

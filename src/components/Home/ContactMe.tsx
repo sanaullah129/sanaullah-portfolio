@@ -20,8 +20,9 @@ const ContactMe = () => {
                 to="https://ig.me/m/sanaullah_129_"
                 className="text-blue-500 hover:underline"
               >
-                with a direct question on Instagram or you could get in touch on my mail {" "}
+                with a direct question on Instagram {" "}
               </Link>
+              or you could get in touch on my <u>mail</u> {" "}
               and I&apos;ll respond whenever I can. I will ignore all
               soliciting.
             </p>
