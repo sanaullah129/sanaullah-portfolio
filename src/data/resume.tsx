@@ -11,13 +11,13 @@ export const DATA = {
   description:
     "As a Software Developer, I specialize in ReactJS, .Net Core, and NodeJS frameworks. I am also available for freelance projects, particularly in the MERN stack",
   summary:
-    "I am a [2023 B-Tech graduate from Mechanical](/#education) who transitioned to the IT industry through self-study. With 1 year of experience in software development, I have honed my skills in ReactJS, .Net Core MVC & WebApi, SQL Server, MongoDB, JavaScript, TypeScript, and many more technologies. I am dedicated to continuously improving my skills, practicing coding, and building various web applications. Some of my notable projects include [Kazi Studios](https://kazi-studios.vercel.app/), [Techno Trove](https://techno-trove.vercel.app/), & [Palette Plus](https://palette-plus-app.vercel.app/). I am also open to freelance work.",
+    "I am a [2023 B-Tech graduate from Mechanical](/#education) who transitioned to the IT industry through self-study. With 1 year of experience in software development, I have honed my skills in ReactJS, .Net Core MVC & WebApi, SQL Server, MongoDB, JavaScript, TypeScript, and many more technologies. I am dedicated to continuously improving my skills, practicing coding, and building various web applications. Some of my notable personal projects include [Kazi Studios](https://kazi-studios.vercel.app/), [Techno Trove](https://techno-trove.vercel.app/), & [Palette Plus](https://palette-plus-app.vercel.app/). I am also open to freelance work.",
   avatarUrl: "/me.jpg",
   skills: {
-    frameworks: ["React JS", "Node JS", ".NET Core MVC", ".NET Core Web Api", "Next JS"],
+    frameworks: ["React JS", "Node JS", ".NET Core MVC", ".NET Core Web Api", "Next JS", "Nest Js"],
     languages: ["JavaScript", "TypeScript", "C#", "Java"],
-    databases: ["SQL Server", "MongoDB"],
-    toolsLibraries: ["Prisma ORM", "Jquery", "Antd", 'TailwindCSS', "Bootstrap", "GIT", "TFS"]
+    databases: ["SQL Server", "MongoDB", "My SQL"],
+    toolsLibraries: ["GraphQL", "Redis", "AWS", "Prisma ORM", "Jquery", "Antd", 'TailwindCSS', "Bootstrap", "GIT", "TFS"]
   },
   contact: {
     email: "sanaullah129@gamil.com",
@@ -43,6 +43,18 @@ export const DATA = {
   },
   work: [
     {
+      company: "Merkle Inspire Pvt Ltd (A Dentsu Company)",
+      href: "https://www.merkle.com/",
+      badges: [],
+      location: "Mumbai",
+      title: "Software Engineer",
+      logoUrl: "/merkle.png",
+      start: "September 2024",
+      end: null,
+      description:
+        "Coordinated with cross-functional teams using Agile methodologies and SCRUM to deliver multiple high-quality features for the Dentsu Connect platform, managing over 100+ social media campaigns. Integrated Prisma-Media Ecosystem API into the application, improving data processing efficiency by 30%. Followed microservices architecture principles, implementing scalable solutions and enhancing application security by collaborating with security and architecture teams.Collaborated with QA and DevOps to achieve seamless application releases, reducing deployment time by 20%",
+    },
+    {
       company: "Prudence Analytics & Software Solutions Pvt. Ltd.",
       href: "https://prudencesoftware.com/",
       badges: [],
@@ -50,7 +62,7 @@ export const DATA = {
       title: "Junior Software Developer",
       logoUrl: "/prudence.png",
       start: "August 2023",
-      end: null,
+      end: "September 2024",
       description:
         "Developed and optimized stored procedures and SQL functions for efficient data management in a large-scale product database, making data retrieval 20% faster. Revamped and implemented interactive web pages aligning with modern design principles; increased user engagement by 40% through seamless data integration using APIs such as Twingly, Twitter, Gmail, etc. Migrated internal CMS from ASPX to ReactJs and .NET Web API, improving routing and code separation. Recommended 60% of the React libraries (hot-toasts, router-dom, antd) used and implemented JWT authentication and various web pages. Integrated Python into a .NET MVC application for phrase identification and sentiment analysis, expanding the system's capabilities by 50% to use python libraries.  Enhanced data visualization using Highcharts to create informative charts for Reports & Dashboards, improving data presentation for stakeholders",
     },
