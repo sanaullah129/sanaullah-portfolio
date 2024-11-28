@@ -14,7 +14,8 @@ interface ResumeCardProps {
   period: string;
   description?: string;
   isExperience: boolean;
-  location: string
+  location: string;
+  grade?: number;
 }
 
 export const ResumeCard = ({
@@ -27,7 +28,8 @@ export const ResumeCard = ({
   period,
   description,
   isExperience,
-  location
+  location,
+  grade,
 }: ResumeCardProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -74,8 +76,13 @@ export const ResumeCard = ({
                 </button>
               )}
             </h3>
-            <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
-              {period}
+            <div>
+              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+                {period}
+              </div>
+              {!isExperience && (
+                <div className="text-xs font-semibold">Grade - {grade}</div>
+              )}
             </div>
           </div>
           {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
