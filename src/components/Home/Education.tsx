@@ -25,6 +25,7 @@ const Education: FC<Props> = ({ DATA }) => {
               description={education.degree}
               isExperience={false}
               location={education.location}
+              grade={education.grade}
             />
           </BlurFade>
         ))}
