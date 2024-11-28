@@ -21,7 +21,7 @@ const Home = () => {
         <Skills DATA={DATA} />
         <Education DATA={DATA} />
         <TopProjects DATA={DATA} />
-        <ContactMe />
+        <ContactMe contact={DATA.contact} />
       </main>
     </>
   );
