@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 import BlurFade from "../magic-ui/blur-fade";
-import { BLUR_FADE_DELAY, Props } from "../../utils/constants";
+import { BLUR_FADE_DELAY } from "../../utils/constants";
+import { FC } from "react";
 
-const ContactMe = () => {
+interface contactProps {
+  contact: any
+}
+
+const ContactMe:FC<contactProps> = ({contact}) => {
   return (
     <section id="contact">
       <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
@@ -22,7 +27,7 @@ const ContactMe = () => {
               >
                 with a direct question on Instagram {" "}
               </Link>
-              or you could get in touch on my <u>mail</u> {" "}
+              or you could get in touch on my <u><Link to={`mailto:${contact.email}`}>mail</Link></u> {" "}
               and I&apos;ll respond whenever I can. I will ignore all
               soliciting.
             </p>
